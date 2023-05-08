@@ -17,7 +17,10 @@ const SignUp = () => {
           </div>
           <div className="flex items-center justify-center flex-col w-full gap-1">
             <p className="text-gray-700 text-sm">Password</p>
-            <input className="w-3/4 border border-gray-300 shadow rounded px-2 py-1" />
+            <input
+              type="password"
+              className="w-3/4 border border-gray-300 shadow rounded px-2 py-1"
+            />
           </div>
 
           <div className="flex w-full items-center justify-center flex-col gap-2 mt-8">
