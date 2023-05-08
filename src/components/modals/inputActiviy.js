@@ -46,7 +46,7 @@ export default function ActivityModal({
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <div className="flex gap-12 transform overflow-hidden rounded bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <div className="flex text-gray-800 gap-12 transform overflow-hidden rounded bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <div>
                     <div className="flex items-center justify-center flex-col gap-4 z-50">
                       <div className="w-full">

@@ -25,7 +25,7 @@ export default function Trash({ trash, openTrash }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <div className="w-[55rem] h-[30rem] transform overflow-hidden rounded flex flex-row shadow-xl transition-all">
+                <div className="w-[55rem] h-[30rem] text-gray-800 transform overflow-hidden rounded flex flex-row shadow-xl transition-all">
                   <div className="p-4 w-full bg-gray-200 flex flex-col">
                     <div className="flex flex-row justify-between w-full">
                       {" "}

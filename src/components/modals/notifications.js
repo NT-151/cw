@@ -25,7 +25,7 @@ export default function Notification({ notifications, openNotifications }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <div className="w-[35rem] h-[14rem] bg-gray-200 p-4 transform overflow-hidden rounded flex flex-col shadow-xl transition-all">
+                <div className="w-[35rem] text-gray-800 h-[14rem] bg-gray-200 p-4 transform overflow-hidden rounded flex flex-col shadow-xl transition-all">
                   <div className="flex w-full justify-between">
                     {" "}
                     <p>Upcoming tasks</p>

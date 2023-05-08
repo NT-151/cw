@@ -25,7 +25,7 @@ export default function TaskManager({ taskManager, openTaskManager }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <div className="w-[50rem] transform overflow-hidden rounded bg-white flex flex-row shadow-xl transition-all">
+                <div className="w-[50rem] text-gray-800 transform overflow-hidden rounded bg-white flex flex-row shadow-xl transition-all">
                   <div className="w-1/5 gap-24 p-4 flex flex-col justify-start">
                     <p className="text-sm w-max">Todays Tasks</p>
                     <p className="text-sm w-max">This weeks tasks</p>
